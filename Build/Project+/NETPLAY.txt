@@ -15,6 +15,13 @@
 #									   #
 ############################################################################
 
+# Netplay Codeset Differences: 
+#
+# NETBOOST.GCT is loaded instead of BOOST.GCT (see bottom of codeset)
+# "Source/Netplay/Net-CodeMenu.asm" is loaded instead of "Source/Project+/CodeMenu.asm"
+#
+#############################################################################
+
 #############################################################################
 ######################          Backend Codes          ######################
 #############################################################################
@@ -66,12 +73,6 @@ HOOK @ $8002D3A0
   li r30, 0x0
 }
 op b 0x10 @ $80078E14
-
-
-#############################################
-[Project+] Skip strap screen [PyotrLuzhin]
-#############################################
-* 046CADE8 48000298
 
 #############################################################################
 Reset multipac stage lock status between Classic & All-Star matches [wiiztec]
@@ -720,7 +721,7 @@ end:
 
 .include Source/Project+/Articles.asm
 .include Source/Project+/Boss.asm
-.include Source/Project+/CodeMenu.asm
+.include Source/Netplay/Net-CodeMenu.asm	# Different Code Menu from normal!         
 .include Source/Project+/CompressPAC.asm
 .include Source/Project+/FilePatchCode.asm
 .include Source/Project+/IndependentSub.asm
@@ -2290,7 +2291,7 @@ HOOK @ $807A3E20
 * 40820008 38E00000
 * 1CE70008 7CFF3A14
 * 80670034 38A00010
-* 38800088 80C60014 #the 88 in this line is the base gfx id, it adds 1 or 2 for the other teams
+* 38800088 80C60014	#the 88 in this line is the base gfx id, it adds 1 or 2 for the other teams
 * 7C843214 80630060
 * 806300D8 80630088
 * 81830000 818C0054
@@ -3277,4 +3278,5 @@ Alloys Can Shield, Dodge & Grab Ledges [ds22]
 .include Source/Project+/Debug/modifiedDebug.asm
 
 
-.include Source/Project+/MultiGCT.asm		# MAKE SURE THIS IS AT THE VERY BOTTOM OF THIS CODESET!!!
+# THIS IS DIFFERENT FROM IN THE NORMAL RSBE01.TXT!!!
+.include Source/Netplay/Net-MultiGCT.asm	# MAKE SURE THIS IS AT THE VERY BOTTOM OF THIS CODESET!!!

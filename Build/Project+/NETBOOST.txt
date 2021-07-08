@@ -6,7 +6,7 @@ op cmplwi r0, 0x30 @ $8018CFC4
 op blt- 0x34	   @ $8018CFC8
 
 .include Source/LegacyTE/Replays.asm
-.include Source/Project+/StageFiles.asm
+.include Source/Netplay/Net-StageFiles.asm		# This file is different from the regular BOOST.txt!
 .include Source/Project+/CustomRequirements.asm
 .include Source/Project+/Shake.asm
 .include Source/Project+/CStick.asm
@@ -37,6 +37,6 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/Project+/AirDodge.asm
 
 #.include Source/Extras/Console.asm	# Only use this on a Wii or Wii U! The codes in this are necessary for the slower specifications of the actual console.
-#.include Source/Extras/Netplay.asm	# Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!
+.include Source/Extras/Netplay.asm	# Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!
 
 .include Source/Extras/More.asm
