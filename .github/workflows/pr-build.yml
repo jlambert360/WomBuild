@@ -44,12 +44,12 @@ jobs:
       - name: "Create sd.raw"
         shell: cmd
         run: |
-          start "D:\a\WomBuild\WomBuild\VSDSync\bin\Quick 2GB SD.bat"
+          start "${{ github.workspace }}\VSDSync\bin\Quick 2GB SD.bat"
 
       - name: "Move build to sd.raw"
         shell: cmd
         run: |
-          start "D:\a\WomBuild\WomBuild\VSDSync\bin\main.bat"
+          start "${{ github.workspace }}\VSDSync\bin\main.bat"
 
       - name: "Setup MSBuild"
         uses: microsoft/setup-msbuild@v1
