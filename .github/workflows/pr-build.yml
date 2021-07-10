@@ -107,14 +107,14 @@ jobs:
         working-directory: ${{ github.workspace }}
         shell: cmd
         run: |
-          xcopy /E /V /Y /I .\User .\Binary\x64\User
-          xcopy /E /V /Y /I .\Sys .\Binary\x64\Sys
-          xcopy /E /V /Y /I .\Games .\Binary\x64\Games
-          xcopy /E /V /Y /I .\Launcher .\Binary\x64\Launcher
+          xcopy /E /V /Y /I .\Dolphin\User .\Binary\x64\User
+          xcopy /E /V /Y /I .\Dolphin\Sys .\Binary\x64\Sys
+          xcopy /E /V /Y /I .\Dolphin\Games .\Binary\x64\Games
+          xcopy /E /V /Y /I .\Dolphin\Launcher .\Binary\x64\Launcher
           copy /b /v /y .\Ishiiruka\Changelog.txt .\Binary\x64\
-          copy /b /v /y .\license.txt .\Binary\x64\
-          copy /b /v /y .\portable.txt .\Binary\x64\
-          copy /b /v /y .\vcruntime140_1.dll .\Binary\x64\
+          copy /b /v /y .\Dolphin\license.txt .\Binary\x64\
+          copy /b /v /y .\Dolphin\portable.txt .\Binary\x64\
+          copy /b /v /y .\Dolphin\vcruntime140_1.dll .\Binary\x64\
 
       - name: "Package Artifact"
         working-directory: ${{ github.workspace }}
