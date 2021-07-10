@@ -13,7 +13,6 @@ jobs:
       fail-fast: false
     env:
       DXSDK_DIR: "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\"
-      VERSION_ENV: "v2.28"
     name: "Windows Dolphin"
     runs-on: windows-2019
     steps:
@@ -71,7 +70,6 @@ jobs:
         shell: powershell
         run: |
           (Get-Content ${{ github.workspace }}\Ishiiruka\Source\Core\DolphinWX\Main.cpp) -replace 'https://projectplusgame.com/update.json', 'https://raw.githubusercontent.com/jlambert360/jlambert360.github.io/master/wombuild.json' | Out-File -encoding ASCII ${{ github.workspace }}\Ishiiruka\Source\Core\DolphinWX\Main.cpp
-          (Get-Content ${{ github.workspace }}\Ishiiruka\Source\Core\Common\Version.cpp) -replace 'FPM $VERSION_ENV BETA', 'WomBuild $VERSION_ENV BETA' | Out-File -encoding ASCII ${{ github.workspace }}\Ishiiruka\Source\Core\Common\Version.cpp
 
       - name: "Build Dolphin"
         shell: cmd
