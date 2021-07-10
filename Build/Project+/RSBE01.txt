@@ -3273,8 +3273,8 @@ Alloys Can Shield, Dodge & Grab Ledges [ds22]
 
 .include Source/Project+/PokeTrainer.asm
 
+.include Source/LoadFiles.asm
 
 .include Source/Project+/Debug/modifiedDebug.asm
-
 
 .include Source/Project+/MultiGCT.asm		# MAKE SURE THIS IS AT THE VERY BOTTOM OF THIS CODESET!!!

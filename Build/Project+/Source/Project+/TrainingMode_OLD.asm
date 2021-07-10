@@ -255,21 +255,6 @@ op nop @ $809031B0
 #Random DI, caught at the DI check, so not an actual control stick input.
 HOOK @ $80877954
 {
-  // FUDGE'S CHANGES:
-  // - MOVED THIS CHUNK OF CODE FUDGE'S CHANGE SO THAT OUTSIDE OF TRAINING HIS AI WILL HAVE "SMART DI"
-  lis r12, 0x805B     # \
-  lwz r12, 0x50AC(r12)    # | Retrieve the game mode name
-  lwz r12, 0x10(r12)    # |
-  lwz r12, 0x4(r12)     # |
-  lwz r12, 0x15(r12)    # / And grab the 2nd-through-5th characters in the string (string starts at 0x14)
-  lis r4, 0x7154      # \
-  ori r4, r4, 0x7261    # / "qTra", as in "sqTraining"
-  
-  cmpw r4, r12        #if not training mode, does random DI
-  // bne normalRNG
-  bne skipCode
-  // END OF FUDGE'S CHANGE
-
   fmr f29, f1
   cmplwi r18, 0xC0DE;  beq+ %end% #if DI Check is from code menu, skip
 checkCPU:   #CPU check from `Random CPU DI v1.2` by ChaseMcDizzle and Fracture
@@ -317,7 +302,16 @@ getKnockback:
   mtctr r12
   bctrl
 
-  // ORIGINAL CODE'S LOCATION
+  lis r12, 0x805B     # \
+  lwz r12, 0x50AC(r12)    # | Retrieve the game mode name
+  lwz r12, 0x10(r12)    # |
+  lwz r12, 0x4(r12)     # |
+  lwz r12, 0x15(r12)    # / And grab the 2nd-through-5th characters in the string (string starts at 0x14)
+  lis r4, 0x7154      # \
+  ori r4, r4, 0x7261    # / "qTra", as in "sqTraining"
+  
+  cmpw r4, r12        #if not training mode, does random DI
+  bne normalRNG
 
   lis r4, 0x8167      # \
   ori r4, r4, 0xE324  # | loads current training mode cpu option
@@ -400,9 +394,7 @@ rotateDI:
   
   fmr f1, f29
   lfs f0, 0xC(r31)
-  b %end%
-skipCode:
-  fmr f29, f1
+
 }
 
 op cmpwi r30, totalOptions @ $80105B70 	#If off end of menu, return to 0
