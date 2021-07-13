@@ -36,21 +36,6 @@ jobs:
           MsiExec.exe /passive /X{1D8E6291-B0D5-35EC-8441-6616F567A0F7}
           mkdir .\Tools\DX
 
-      - name: "Install imdisk"
-        shell: powershell
-        run: |
-          choco install imdisk --version=2.0.10
-
-      - name: "Create sd.raw"
-        shell: cmd
-        run: |
-          "${{ github.workspace }}\VSDSync\bin\Quick 2GB SD.bat"
-
-      - name: "Move build to sd.raw"
-        shell: cmd
-        run: |
-          "${{ github.workspace }}\VSDSync\bin\main.bat"
-
       - name: "Setup MSBuild"
         uses: microsoft/setup-msbuild@v1
 
@@ -137,6 +122,13 @@ jobs:
           cd .\Binary\x64\
           7z a $FILE_NAME .\*
           move $FILE_NAME ..\..\artifact\
+
+      - name: "Publish"
+        if: success()
+        uses: actions/upload-artifact@v2-preview
+        with:
+          name: "WomBuild"
+          path: "./artifact/"
 
       - name: "Create Release"
         id: create_release
