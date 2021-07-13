@@ -95,6 +95,7 @@ pf/sound/strm/Menu Music
 	Lobby theme (Slap City).brstm
 	Main Menu (Pokemon Colosseum).brstm
 	Menu Theme (Mario Superstar Baseball).brstm
+	Normal Battle (Pokemon Trading Card Game).brstm
 	Pilotgang 2 - Aloe Island Posse.brstm
 
 pf/sound/strm/Metal Cavern
@@ -156,6 +157,14 @@ pf/sound/strm/Victory Themes
 	Yoshi.brstm
 	Zelda.brstm
 	ZSS.brstm
+	
+pf/sound/strm/Wario Land
+	City Level (Speedrunners).brstm
+	Junior Street (Mario Hoops 3 on 3).brstm
+	Oh no! WASPS!! (Bug Fables).brstm
+	Spunky (3rd Strike).brstm
+	Surf Punks (Bad Fur Day).brstm
+	What to Do (Mario Party 3).brstm
 
 pf/sound/tracklist and pf/sound/netplaylist (Just copy and paste the files from tracklist to netplaylist)
 	Battlefield.tlst
