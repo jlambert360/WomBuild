@@ -1,0 +1,555 @@
+Dolphin Files -
+User/Config/Dolphin.ini - Changed default theme
+User/Config/UI.ini - Prevent updates
+User/Load/Textures - HD Textures
+User/Wii/title/00010000/52534245/data - Offline Save data
+Sys/Wii/title/00010000/52534245/data - Netplay Save data
+
+Codes -
+RSBE01.txt and NETPLAY.txt
+	Default Settings Modifier [Igglyboo, Brkirch, and FMK]
+
+Fudgepop AI Files:
+	Codes in RSBE01.txt and NETPLAY.txt:
+		.include Source/LoadFiles.asm
+	Codes:
+		Source/LoadFiles.asm
+		Source/Netplay/Net-CodeMenu.asm
+		Source/Netplay/Net-StageFiles.asm
+		Source/Project+/CodeMenu.asm
+		Source/Project+/StageFiles.asm
+		Source/Project+/TrainingMode.asm
+		Source/Project+/TrainingMode_OLD.asm
+		Source/Project+/UCF.asm
+		codes/A
+		codes/B
+		codes/C
+		codes/Data
+		codes/Init
+		codes/InitInfo
+		codes/Injections
+		codes/files
+	Fighter Files:
+		pf/fighter/captain/FitCaptainMotionEtc.pac
+		pf/fighter/falco/FitFalcoMotionEtc.pac
+		pf/fighter/lucario/FitLucarioMotionEtc.pac
+		pf/fighter/marth/FitMarthMotionEtc.pac
+		pf/fighter/mewtwo/FitMewtwoMotionEtc.pac
+		pf/fighter/pikachu/FitPikachuMotionEtc.pac
+
+Music -
+pf/sound/strm/Battlefield
+	Big Blue (Mario Kart 8).brstm
+	Bollywood (Scott Pilgrim).brstm
+	Boss Battle (Shantae and the Pirate's Curse).brstm
+	Hidden Leaf Village Gate.brstm
+	Luna Ascension EX (Rivals of Aether).brstm
+	Obstacle Completion - My Hero Academia.brstm
+	Out in the Country (Digimon Rumble Arena).brstm
+	Riptide Rupture (Splatoon 2).brstm
+
+pf/sound/strm/Delfino Secret
+	Bath Time Theme - Nintendogs (Ultimate Remix).brstm
+	FIGHT! (Bug Fables).brstm
+	Glacier Cocktail (Rayman Origins).brstm
+	Slider (Rio 2016 Olympics).brstm
+	Swan Lake (Paper Mario The Origami King).brstm
+	Trainwreck of Electro Swing (A Hat in Time Remix).brstm
+
+pf/sound/strm/Dreamland 64
+	Fight and Flight (Rivals of Aether).brstm
+	Gourmet Race - Epic Yarn.brstm
+	Gourmet Race - Mariachi Entertainment System.brstm
+	History of Dedede (Kirby Fighters Deluxe).brstm
+	Jumper (Castle Crashers).brstm
+	Qumu - Green Greens.brstm
+
+pf/sound/strm/Final Destination
+	Badguy's Festival (Digimon Rumble Arena).brstm
+	Final Fall (Fall Guys).brstm
+	Grannies World Tour (Rayman Legends).brstm
+	Imprinting - Sakuzyo.brstm
+	MECHA BEE DESTROYER BLASTLORD (Bug Fables).brstm
+	Watch Your Step Fox! (Harmony of Heroes).brstm
+
+pf/sound/strm/Fountain of Dreams
+	Fountain of Dreams (Kirby Fighters 2).brstm
+	Howl of the Forest (Rivals of Aether).brstm
+	Lightning Pandemonium (Rivals of Aether).brstm
+	Meta Knight's Revenge - Super Soul Bros.brstm
+	Remix 10 (Rhythm Heaven Fever).brstm
+	Spelunking In Space - Hylian Lemon.brstm
+
+pf/sound/strm/Green Hill Zone
+	AIN'T NOTHIN LIKE A FUNKY BEAT (Lethal League Blaze).brstm
+	Honeycomb Highway.brstm
+	Metallic Madness Zone - Sonic Mania.brstm
+	Rooftop Run - Sonic Generations.brstm
+	Sneakman (Jet Set Radio).brstm
+	Teknopathetic (Jet Set Radio Future).brstm
+
+pf/sound/strm/Menu Music
+	Ace Trainer Encounter - Insaneintherain.brstm
+	FunkyBoard (Rayman 3).brstm
+	Gathers Under Night (Under Night In-Birth).brstm
+	Lobby theme (Slap City).brstm
+	Main Menu (Pokemon Colosseum).brstm
+	Menu Theme (Mario Superstar Baseball).brstm
+	Pilotgang 2 - Aloe Island Posse.brstm
+
+pf/sound/strm/Metal Cavern
+	Dummy! (UNDERTALE).brstm
+	Frost Man (Mega Man 8).brstm
+	Pigstep (Minecraft).brstm
+	Rotten Shotgun (Death Road to Canada).brstm
+	School Stage (Mario Strikers Charged).brstm
+	The Danger Zone (Wonder Boy).brstm
+
+pf/sound/strm/Pokemon Stadium 2
+	Battle Tower (Sword & Shield).brstm
+	Battle! Gladion (Sun & Moon anime).brstm
+	Boss Battle (Pokemon Masters).brstm
+	Champion Hau USUM.brstm
+	Defy The Legends (Rescue Team DX).brstm
+	Galarian Bird Theme (Sword & Shield).brstm
+	Main Street Colosseum (Battle Revolution).brstm
+	SS Aqua (Johto Anime).brstm
+	Sunny Park Colosseum.brstm
+
+pf/sound/strm/Smashville
+	Animal Crossing - Spring (Mario Kart 8).brstm
+	Boss Battle (Bomberman 64).brstm
+	Bubblegum K.K..brstm
+	Fresh (Friday Night Funkin).brstm
+	KK Disco - Qumu.brstm
+	Me and the Kapp'n Make it Happ'n (Harmony of Heroes).brstm
+	Moon River (Bayonetta 2).brstm
+	Schmeebop (Skullgirls).brstm
+
+pf/sound/strm/Victory Themes
+	Bowser.brstm
+	Charizard.brstm
+	Dedede.brstm
+	Fox.brstm
+	Game Over (Friday Night Funkin).brstm
+	Ganondorf.brstm
+	Ivysaur.brstm
+	Jigglypuff.brstm
+	Link.brstm
+	Lucario.brstm
+	Lucas.brstm
+	Luigi.brstm
+	Mario.brstm
+	Meta Knight.brstm
+	Mewtwo.brstm
+	Ness.brstm
+	Olimar.brstm
+	Peach.brstm
+	Pit.brstm
+	Pokemon.brstm
+	Samus.brstm
+	Sonic & Knuckles.brstm
+	Squirtle.brstm
+	Toon Link.brstm
+	Wario.brstm
+	Wolf.brstm
+	Yoshi.brstm
+	Zelda.brstm
+	ZSS.brstm
+
+pf/sound/tracklist and pf/sound/netplaylist (Just copy and paste the files from tracklist to netplaylist)
+	Battlefield.tlst
+	Delfino_Secret.tlst
+	Dream_Land.tlst
+	Final_Destination.tlst
+	Fountain_Of_Dreams.tlst
+	Green_Hill_Zone.tlst
+	Menu.tlst
+	Metal_Cavern.tlst
+	Pokemon_Stadium_2.tlst
+	Smashville.tlst
+	Results.tlst
+
+pf/stage/stageinfo
+	Tracklists = Battlefield
+		Battlefield_L.param
+		Battlefield_Y.param
+		Battlefield_Z.param
+	Tracklists = Delfino_Secret
+		Delfino_Secret_L.param
+		Delfino_Secret_R.param
+		Delfino_Secret_Z.param
+	Tracklists = Dream_Land
+		Dream_Land_L.param
+		Dream_Land_Y.param
+	Tracklists = Final_Destination
+		Final_Destination_L.param
+		Final_Destination_X.param
+		Final_Destination_Y.param
+	Tracklists = Fountain_of_Dreams
+		Fountain_Of_Dreams_Z.param
+	Tracklists = Green_Hill_Zone
+		Green_Hill_Zone_L.param
+		Green_Hill_Zone_R.param
+		Green_Hill_Zone_Z.param
+	Tracklists = Metal_Cavern
+		Metal_Cavern_L.param
+		Metal_Cavern_Y.param
+		Metal_Cavern_YZ.param
+	Tracklists = Pokemon_Stadium_2
+		Pokemon_Stadium_2_X.param
+		Pokemon_Stadium_2_Z.param
+	Tracklists = Smashville
+		Smashville_L.param
+		Smashville_R.param
+		Smashville_Z.param
+	Tracklists = Wario_Land
+		Wario_Land_L.param
+		Wario_Land_R.param
+		Wario_Land_Z.param
+	
+Fighter Files -
+pf/fighter/dedede/FitDedede11.pac
+pf/fighter/kirby/FitKirby23.pac
+pf/fighter/knuckles/FitKnuckles24.pac
+pf/fighter/knuckles/FitKnuckles30.pac
+pf/fighter/lucario/FitLucario25.pac
+pf/fighter/lucario/FitLucario30.pac
+pf/fighter/lucas/FitLucas.pac
+pf/fighter/lucas/FitLucas25.pac
+pf/fighter/lucas/FitLucas26.pac
+pf/fighter/lucas/FitLucas27.pac
+pf/fighter/lucas/FitLucas34.pac
+pf/fighter/lucas/FitLucas40.pac
+pf/fighter/luigi/FitLuigi08.pac
+pf/fighter/luigi/FitLuigi24.pac
+pf/fighter/mario/FitMario26.pac
+pf/fighter/mario/FitMario33.pac
+pf/fighter/ness/FitNess25.pac
+pf/fighter/ness/FitNess26.pac
+pf/fighter/pikmin/FitPikmin35.pac
+pf/fighter/pit/FitPit30.pac
+pf/fighter/pit/FitPitEtc30.pac
+pf/fighter/pokezenigame/FitPokeZenigame30.pac
+pf/fighter/popo/FitPopo40.pac
+pf/fighter/samus/FitSamus38.pac
+pf/fighter/sheik/FitSheik30.pac
+pf/fighter/sonic/FitSonic24.pac
+pf/fighter/sonic/FitSonicEtc24.pac
+pf/fighter/szerosuit/FitSZerosuit06.pac
+pf/fighter/yoshi/FitYoshi23.pac
+pf/fighter/zelda/FitZelda30.pac
+
+Cosmetics -
+Masq Files:
+pf/info/costumeslots/00.masq - Mario
+pf/info/costumeslots/03.masq - Samus
+pf/info/costumeslots/04.masq - Zero Suit Samus
+pf/info/costumeslots/05.masq - Yoshi
+pf/info/costumeslots/06.masq - Kirby
+pf/info/costumeslots/09.masq - Luigi
+pf/info/costumeslots/11.masq - Ness
+pf/info/costumeslots/14.masq - Zelda
+pf/info/costumeslots/15.masq - Sheik
+pf/info/costumeslots/16.masq - Ice Climbers
+pf/info/costumeslots/23.masq - Pit
+pf/info/costumeslots/24.masq - Olimar
+pf/info/costumeslots/25.masq - Lucas
+pf/info/costumeslots/29.masq - Squirtle
+pf/info/costumeslots/31.masq - Dedede
+pf/info/costumeslots/32.masq - Lucario
+pf/info/costumeslots/39.masq - Sonic
+pf/info/costumeslots/42.masq - Knuckles
+
+BPs:
+pf/info/portrite/InfFace0016.brres - MF Doom Mario
+pf/info/portrite/InfFace0017.brres - MF Doom Mario Electric
+pf/info/portrite/InfFace0167.brres - Morse Samus
+pf/info/portrite/InfFace0216.brres - Zubat Yoshi
+pf/info/portrite/InfFace0266.brres - Sabre Fighter Kirby
+pf/info/portrite/InfFace0408.brres - Riku Luigi
+pf/info/portrite/InfFace0413.brres - Zubat Luigi
+pf/info/portrite/InfFace0516.brres - Supreme Ness
+pf/info/portrite/InfFace0517.brres - Kumatora Ness
+pf/info/portrite/InfFace0666.brres - Grzly Zelda
+pf/info/portrite/InfFace0716.brres - Grzly Sheik (matching zelda)
+pf/info/portrite/InfFace0766.brres - Phresh ICs
+pf/info/portrite/InfFace1116.brres - Frost Pit
+pf/info/portrite/InfFace1157.brres - Uma ZSS
+pf/info/portrite/InfFace1216.brres - Daft Punk Olimar
+pf/info/portrite/InfFace1262.brres - Frost Red Lucas
+pf/info/portrite/InfFace1263.brres - Frost Green Lucas
+pf/info/portrite/InfFace1264.brres - Frost Blue Lucas
+pf/info/portrite/InfFace1269.brres - ObiWan Lucas
+pf/info/portrite/InfFace1270.brres - Shadowhawke Lucas
+pf/info/portrite/InfFace1466.brres - Cowboy Squirtle
+pf/info/portrite/InfFace1561.brres - Mulldrifter DDD
+pf/info/portrite/InfFace1616.brres - Snow Gi Lucario
+pf/info/portrite/InfFace1617.brres - Halloween Lucario
+pf/info/portrite/InfFace2117.brres - Motobug Knuckles
+pf/info/portrite/InfFace2118.brres - Metal Knuckles
+pf/info/portrite/InfFace2312.brres - Motobug Sonic
+
+	Rename BPs:
+		Luigi:
+			InfFace0408->InfFace0409
+			InfFace0409->InfFace0410
+			InfFace0410->InfFace0411
+			InfFace0411->InfFace0412
+			InfFace0412->InfFace0414
+			InfFace0413->InfFace0415
+			InfFace0414->InfFace0416
+			InfFace0415->InfFace0417
+		ZSS:
+			InfFace1157->InfFace1158
+			InfFace1158->InfFace1159
+			InfFace1159->InfFace1160
+			InfFace1160->InfFace1161
+			InfFace1161->InfFace1162
+			InfFace1162->InfFace1163
+			InfFace1163->InfFace1164
+			InfFace1164->InfFace1165
+			InfFace1165->InfFace1166
+			InfFace1166->InfFace1167
+		Lucas:
+			InfFace1262->InfFace1265
+			InfFace1263->InfFace1266
+			InfFace1264->InfFace1267
+			InfFace1265->InfFace1268
+		DDD:
+			InfFace1561->InfFace1562
+			InfFace1562->InfFace1563
+			InfFace1563->InfFace1564
+			InfFace1564->InfFace1565
+			InfFace1565->InfFace1566
+		Sonic:
+			InfFace2312->InfFace2313
+			InfFace2313->InfFace2314
+			InfFace2314->InfFace2315
+			InfFace2315->InfFace2316
+		
+CSPs and RSPs:
+pf/menu/common/char_bust_tex/MenSelchrFaceB000.brres - Mario
+pf/menu/common/char_bust_tex/MenSelchrFaceB030.brres - Samus
+pf/menu/common/char_bust_tex/MenSelchrFaceB040.brres - Yoshi
+pf/menu/common/char_bust_tex/MenSelchrFaceB050.brres - Kirby
+pf/menu/common/char_bust_tex/MenSelchrFaceB080.brres - Luigi
+pf/menu/common/char_bust_tex/MenSelchrFaceB100.brres - Ness
+pf/menu/common/char_bust_tex/MenSelchrFaceB130.brres - Zelda
+pf/menu/common/char_bust_tex/MenSelchrFaceB140.brres - Sheik
+pf/menu/common/char_bust_tex/MenSelchrFaceB150.brres - ICs
+pf/menu/common/char_bust_tex/MenSelchrFaceB220.brres - Pit
+pf/menu/common/char_bust_tex/MenSelchrFaceB230.brres - ZSS
+pf/menu/common/char_bust_tex/MenSelchrFaceB240.brres - Olimar
+pf/menu/common/char_bust_tex/MenSelchrFaceB250.brres - Lucas
+pf/menu/common/char_bust_tex/MenSelchrFaceB290.brres - Squirtle
+pf/menu/common/char_bust_tex/MenSelchrFaceB310.brres - DDD
+pf/menu/common/char_bust_tex/MenSelchrFaceB320.brres - Lucario
+pf/menu/common/char_bust_tex/MenSelchrFaceB420.brres - Knuckles
+pf/menu/common/char_bust_tex/MenSelchrFaceB460.brres - Sonic
+pf/menu2/sc_selcharacter.pac
+	char_bust_tex_lz77->
+						Misc Data[0] - Mario
+						Misc Data[3] - Samus
+						Misc Data[4] - Yoshi
+						Misc Data[5] - Kirby
+						Misc Data[8] - Luigi
+						Misc Data[10] - Ness
+						Misc Data[13] - Zelda
+						Misc Data[14] - Sheik
+						Misc Data[15] - ICs
+						Misc Data[22] - Pit
+						Misc Data[23] - ZSS
+						Misc Data[24] - Olimar
+						Misc Data[25] - Lucas
+						Misc Data[29] - Squirtle
+						Misc Data[31] - DDD
+						Misc Data[32] - Lucario
+						Misc Data[42] - Knuckles
+						Misc Data[46] - Sonic
+						
+
+Menu Textures:
+pf/menu2/sc_selcharacter.pac
+	Misc Data [30]->Textures(NW4R)->bg_stars01
+
+Stocks:
+pf/info2/info.pac
+	Misc Data [30]->Textures(NW4R)->
+									RENAME: 
+										Luigi:
+											InfStc.0408->InfStc.0409
+											InfStc.0409->InfStc.0410
+											InfStc.0410->InfStc.0411
+											InfStc.0411->InfStc.0412
+											InfStc.0412->InfStc.0414
+											InfStc.0413->InfStc.0415
+											InfStc.0414->InfStc.0416
+											InfStc.0415->InfStc.0417
+										ZSS:
+											InfStc.1157->InfStc.1158
+											InfStc.1158->InfStc.1159
+											InfStc.1159->InfStc.1160
+											InfStc.1160->InfStc.1161
+											InfStc.1161->InfStc.1162
+											InfStc.1162->InfStc.1163
+											InfStc.1163->InfStc.1164
+											InfStc.1164->InfStc.1165
+											InfStc.1165->InfStc.1166
+											InfStc.1166->InfStc.1167
+										Lucas:
+											InfStc.1262->InfStc.1265
+											InfStc.1263->InfStc.1266
+											InfStc.1264->InfStc.1267
+											InfStc.1265->InfStc.1268
+										DDD:
+											InfStc.1561->InfStc.1562
+											InfStc.1562->InfStc.1563
+											InfStc.1563->InfStc.1564
+											InfStc.1564->InfStc.1565
+											InfStc.1565->InfStc.1566
+										Sonic:
+											InfStc.2312->InfStc.2313
+											InfStc.2313->InfStc.2314
+											InfStc.2314->InfStc.2315
+											InfStc.2315->InfStc.2316
+									ADD:
+										Mario:
+											InfStc.0016
+											InfStc.0017
+										Samus:
+											InfStc.0167
+										Yoshi:
+											InfStc.0216
+										Kirby:
+											InfStc.0266
+										Luigi:
+											InfStc.0408
+											InfStc.0413
+										Ness:
+											InfStc.0516
+											InfStc.0517
+										Zelda:
+											InfStc.0666
+										Sheik:
+											InfStc.0716
+										ICs:
+											InfStc.0766
+										Pit:
+											InfStc.1116
+										ZSS:
+											InfStc.1157
+										Olimar:
+											InfStc.1216
+										Lucas:
+											InfStc.1262
+											InfStc.1263
+											InfStc.1264
+											InfStc.1269
+											InfStc.1270
+										Squirtle:
+											InfStc.1466
+										DDD:
+											InfStc.1561
+										Lucario:
+											InfStc.1616
+											InfStc.1617
+										Knuckles:
+											InfStc.2117
+											InfStc.2118
+										Sonic:
+											InfStc.2312
+										
+					AnmTexPat(NW4R)->InfStockface_TopN__0: Right click a stock icon and click "Generate PAT0" to update this file
+
+pf/menu/common/StockFaceTex.brres
+	Textures(NW4R)->
+					RENAME: 
+							Luigi:
+								InfStc.0408->InfStc.0409
+								InfStc.0409->InfStc.0410
+								InfStc.0410->InfStc.0411
+								InfStc.0411->InfStc.0412
+								InfStc.0412->InfStc.0414
+								InfStc.0413->InfStc.0415
+								InfStc.0414->InfStc.0416
+								InfStc.0415->InfStc.0417
+							ZSS:
+								InfStc.1157->InfStc.1158
+								InfStc.1158->InfStc.1159
+								InfStc.1159->InfStc.1160
+								InfStc.1160->InfStc.1161
+								InfStc.1161->InfStc.1162
+								InfStc.1162->InfStc.1163
+								InfStc.1163->InfStc.1164
+								InfStc.1164->InfStc.1165
+								InfStc.1165->InfStc.1166
+								InfStc.1166->InfStc.1167
+							Lucas:
+								InfStc.1262->InfStc.1265
+								InfStc.1263->InfStc.1266
+								InfStc.1264->InfStc.1267
+								InfStc.1265->InfStc.1268
+							DDD:
+								InfStc.1561->InfStc.1562
+								InfStc.1562->InfStc.1563
+								InfStc.1563->InfStc.1564
+								InfStc.1564->InfStc.1565
+								InfStc.1565->InfStc.1566
+							Sonic:
+								InfStc.2312->InfStc.2313
+								InfStc.2313->InfStc.2314
+								InfStc.2314->InfStc.2315
+								InfStc.2315->InfStc.2316
+						ADD:
+							Mario:
+								InfStc.0016
+								InfStc.0017
+							Samus:
+								InfStc.0167
+							Yoshi:
+								InfStc.0216
+							Kirby:
+								InfStc.0266
+							Luigi:
+								InfStc.0408
+								InfStc.0413
+							Ness:
+								InfStc.0516
+								InfStc.0517
+							Zelda:
+								InfStc.0666
+							Sheik:
+								InfStc.0716
+							ICs:
+								InfStc.0766
+							Pit:
+								InfStc.1116
+							ZSS:
+								InfStc.1157
+							Olimar:
+								InfStc.1216
+							Lucas:
+								InfStc.1262
+								InfStc.1263
+								InfStc.1264
+								InfStc.1269
+								InfStc.1270
+							Squirtle:
+								InfStc.1466
+							DDD:
+								InfStc.1561
+							Lucario:
+								InfStc.1616
+								InfStc.1617
+							Knuckles:
+								InfStc.2117
+								InfStc.2118
+							Sonic:
+								InfStc.2312
+
+Stages -
+pf/stage/melee/STGWARIOLAND.pac
+pf/stage/melee/STGRESULT.pac - 
+	2->Misc Data[110]->AnmTexPat(NW4R)->InfStockface_TopN__0: in pf/info2/info.pac right click a stock icon and hit "Generate PAT0". Export the InfStockface_TopN__0 file and use it to replace the one in STGRESULT.pac
+	2->Misc Data[120]: replace with pf/menu/common/StockFaceTex.brres after you've added the new stock icons to that
