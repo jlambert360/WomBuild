@@ -14,6 +14,7 @@ rmdir .\User\Wii\ticket /s /q
 rmdir .\User\Wii\title /s /q
 rmdir .\User\Wii\tmp /s /q
 rmdir .\User\Wii\wfs /s /q
+del .\vcruntime140_1.dll /Q
 del .\User\Config\Dolphin.ini /Q
 del .\User\Config\GCKeyNew.ini /Q
 del .\User\Config\GCPadNew.ini /Q
