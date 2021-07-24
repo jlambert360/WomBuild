@@ -2,3 +2,9 @@
 
 P+ Version: 2.28 with G&W, Lucario, and MewTwo up b fixes
 WomBuild Version: 2.0
+
+## Prepare Wii and Dolphin Builds
+
+For a Wii build run "Prepare Wii Build.bat" and drag the files in the Build folder onto your sd card.
+
+For a Dolphin build run "CreateSD.bat" and drag the files in the Dolphin folder, except for "Delete files (Update).bat" into your Dolphin path.

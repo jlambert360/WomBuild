@@ -9,7 +9,7 @@ cd /d %~dp0
 :: Fetch settings
 :: ============================================================================
 
-for /f "tokens=1,2 delims==" %%a in (../config.ini) do (
+for /f "tokens=1,2 delims==" %%a in (config.ini) do (
     :: The path to your Dolphin sd.raw file
     if %%a==SD_CARD_PATH set SD_CARD_PATH=%%b
     :: The drive letter the card should be mounted to (for the default example, it would be "Q:\")
