@@ -237,6 +237,7 @@ pf/fighter/mario/FitMario33.pac
 pf/fighter/ness/FitNess25.pac
 pf/fighter/ness/FitNess26.pac
 pf/fighter/pikmin/FitPikmin35.pac
+pf/fighter/pit/FitPit.pac
 pf/fighter/pit/FitPit30.pac
 pf/fighter/pit/FitPitEtc30.pac
 pf/fighter/pokezenigame/FitPokeZenigame30.pac
