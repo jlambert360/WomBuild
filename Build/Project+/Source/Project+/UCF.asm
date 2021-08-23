@@ -48,6 +48,11 @@
 
 [Project+] UCF with Melee threshold 2.0 [Fracture, Eon]
 #reworked to better match melees thresholds and mechanics 
+
+#when doing an action override, use a subroutine pointing to 0x80FC2138, this is where the platdrop code that this code edits is found
+#this can be used to add this UCF mechanic to other actions or just when you change functionality of the main shield
+#PSA-C Copy-paste : E=00070100:0-80FC2138,
+
 HOOK @ $8083A31C
 {
 
