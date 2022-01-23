@@ -52,12 +52,6 @@ jobs:
         run: |
           choco install directx-sdk
 
-      - name: "Install DirectX SDK"
-        working-directory: ${{ github.workspace }}
-        shell: cmd
-        run: |
-          .\Tools\DX\DXSDK_Jun10.exe /U /F
-
       - name: "Clone Dolphin"
         shell: cmd
         run: |
