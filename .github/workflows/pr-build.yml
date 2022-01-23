@@ -47,11 +47,10 @@ jobs:
           path: ./Tools/DX/
           key: ${{ runner.os }}
 
-      - name: "Download DirectX SDK"
-        working-directory: ${{ github.workspace }}
+      - name: "Install DirectX SDK"
         shell: powershell
         run: |
-          if (!(Test-Path ".\Tools\DX\DXSDK_Jun10.exe" -PathType Leaf)) { Invoke-WebRequest -Uri https://github.com/project-slippi/Ishiiruka/releases/download/v2.2.5/DXSDK_Jun10.exe -UseBasicParsing -OutFile ".\Tools\DX\DXSDK_Jun10.exe" }
+          choco install directx-sdk
 
       - name: "Install DirectX SDK"
         working-directory: ${{ github.workspace }}
