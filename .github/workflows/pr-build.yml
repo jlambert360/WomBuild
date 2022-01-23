@@ -41,12 +41,6 @@ jobs:
       - name: "Setup MSBuild"
         uses: microsoft/setup-msbuild@v1
 
-      - name: "Cache DXSDK_Jun10.exe"
-        uses: actions/cache@v2
-        with:
-          path: ./Tools/DX/
-          key: ${{ runner.os }}
-
       - name: "Install DirectX SDK"
         shell: powershell
         run: |
